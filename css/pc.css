@@ -209,6 +209,7 @@ img {
 }
 
 .works-name {
+  color: #5561b1;
   font-size: 2rem;
   font-weight: bold;
   margin-top: 5%;
@@ -216,6 +217,7 @@ img {
 }
 
 .works-lead {
+  color: #5561b1;
   font-size: 1.4rem;
   margin-bottom: 5%;
   text-align: left;
