@@ -27,7 +27,7 @@ img {
     background-image: url(../img/bg.png);
     background-size: cover;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 ;
     letter-spacing: 0.05em;
   }
 
