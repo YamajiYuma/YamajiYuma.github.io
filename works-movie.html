@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yamaji Yuma</title>
+
+    <link rel="stylesheet" href="css/pc.css" />
+    <link rel="stylesheet" href="css/sp.css" />
+
+    <!-- Press Start 2P & Zen Kaku Gothic New-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <a href="index.html"
+        ><img class="head-logo" src="img/YamajiYuma.png" alt="Yamaji Yuma"
+      /></a>
+      <nav class="head-nav">
+        <a href="about.html"><img src="img/nav_About.png" alt="About" /></a>
+        <a href="works-movie.html"
+          ><img src="img/nav_Works.png" alt="Works"
+        /></a>
+        <a href="index.html#Contact"
+          ><img src="img/nav_Contact.png" alt="Contact"
+        /></a>
+      </nav>
+    </header>
+    <div class="wrapper">
+      <main>
+        <div class="ttl">
+          <img src="img/Works.png" alt="Works" />
+          <p class="ttl-sub">制作物</p>
+        </div>
+        <div class="flex-works">
+          <!-- 画面切り替え -->
+          <aside>
+            <nav class="nav-works">
+              <a href="works-movie.html"
+                ><img src="img/btn_動画_on.png" alt="動画ボタン" />
+              </a>
+              <a href="works-illustration.html"
+                ><img src="img/btn_イラスト.png" alt="イラストボタン" />
+              </a>
+              <a href="works-music.html"
+                ><img src="img/btn_音楽.png" alt="音楽ボタン" />
+              </a>
+              <a href="works-app.html"
+                ><img src="img/btn_アプリ.png" alt="アプリボタン" />
+              </a>
+            </nav>
+          </aside>
+          <ul class="works-list-block">
+            <div class="flex-works-list">
+              <li class="works-item-2">
+                <img class="works-img-2" src="img/movie_01.JPG" />
+                <p class="works-name-2">マインクラフト実況編集</p>
+                <p class="works-lead-2">ゲーム実況</p>
+              </li>
+              <li class="works-item-2">
+                <img class="works-img-2" src="img/movie_02.JPG" />
+                <p class="works-name-2">MV制作</p>
+                <p class="works-lead-2">歌ってみたMV/オリジナルMV/サンプルMV</p>
+              </li>
+              <li class="works-item-2">
+                <img class="works-img-2" src="img/movie_03.png" />
+                <p class="works-name-2">ショート動画制作</p>
+                <p class="works-lead-2">Shorts動画</p>
+              </li>
+              <li class="works-item-2">
+                <img class="works-img-2" src="img/movie_04.png" />
+                <p class="works-name-2">ゲーム紹介動画制作</p>
+                <p class="works-lead-2">その他</p>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </main>
+    </div>
+    <!-- Footer -->
+    <footer>
+      <ul class="foot-list">
+        <li class="foot-item">
+          <a href="about.html"> <p class="foot-name">About</p> </a>
+          <p class="foot-lead">私について</p>
+        </li>
+        <li class="foot-item">
+          <a href="works-movie.html"> <p class="foot-name">Works</p> </a>
+          <p class="foot-lead">制作物</p>
+          <ul class="foot-wlist">
+            <div class="flex-1">
+              <a href="works-movie.html"><li>動画編集</li></a>
+              <a href="works-music.html"> <li>音源制作</li></a>
+            </div>
+            <div class="flex-2">
+              <a href="works-illustration.html"> <li>イラスト制作</li></a>
+              <a href="works-app.html"> <li>アプリ制作/企画</li></a>
+            </div>
+          </ul>
+        </li>
+        <li class="foot-item">
+          <a href="index.html#Contact"> <p class="foot-name">Contact</p></a>
+          <p class="foot-lead">お問い合わせ</p>
+        </li>
+      </ul>
+      <li class="foot-copyright">
+        <a href="index.html"><p>Yamaji Yuma</p></a>
+        <small>&copy; 2024 Yuma Yamaji</small>
+      </li>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/petite-vue"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
